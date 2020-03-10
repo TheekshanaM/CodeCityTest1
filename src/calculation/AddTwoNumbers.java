@@ -9,5 +9,17 @@ public class AddTwoNumbers {
         if(a>3 && b<6 && c>5 && d<2) {
         	System.out.println("Sum of these numbers: "+sum);
         }
+        
+        switch (sum) {
+		case 1:
+			System.out.println("Entered number is even");
+			break;
+
+		case 2:
+			System.out.println("Entered number is even");
+			break;
+		default:System.out.println("Entered number is even");
+			break;
+		}
 	}
 }
